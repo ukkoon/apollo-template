@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "commonjs",
+        "lib": [
+            "esnext"
+        ],
+        "strict": true,
+        "rootDir": "./api",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "allowJs": false,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "skipLibCheck": true, // `skipLibCheck` is enabled until this is issue is fixed: https://github.com/prisma/nexus-prisma/issues/82
+        "resolveJsonModule": true,
+        "moduleResolution": "Node",
+        "types": [
+            "./typings"
+        ]
+    },
+    "exclude": ["public"]
+}

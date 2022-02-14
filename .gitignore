@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+.env
+dist
+images/
+src/
+@types
+nexus-typegen.ts
+schema.graphql
